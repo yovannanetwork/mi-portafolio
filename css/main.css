@@ -1,9 +1,8 @@
 /* Tu CSS va aqui */
-*{
-    outline: 1px solid red;
-}
+
 body{
     color: white;
+    font-family: arial;
 }
 /*-------css comun-----*/
 hr{
@@ -29,6 +28,7 @@ header{
     background-color: #f05f40;
     border-radius: 20px;
     border: 1px solid #f05f40;
+    margin: 10px 0;
 }
 .hero hr{
     border: 1px solid #f05f40;
