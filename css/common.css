@@ -1,0 +1,98 @@
+/* -----------------------------HEADER--------------------*/
+header{
+    background-color: #fff;
+}
+header h1{
+    color: #0c247d;
+    text-align: center;
+    font-weight: bold;
+}
+header ul{
+    list-style: none;
+    margin: 10px;
+}
+header li{
+    display: inline-block;
+    padding: 10px;
+    margin: 0 40px;
+}
+header li a{
+    text-decoration: none;
+    color: #0c247d;
+}
+header li:hover{
+    background:rgba(195,198,197,0.9);
+    color: #fff;
+    transition: 500ms all;
+    text-decoration: none;
+}
+/*-----BUTTON---------------------------------------------------*/
+.button{
+    background-color: #192951;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 80px;
+    text-decoration: none;
+}
+/*------section contactanos--------*/
+.contactanos{
+    margin: 40px;
+    height: 400px;
+}
+.contactanos h3{
+    color: #192951;
+}
+.contactanos input{
+    width: 90%;
+    padding: 8px 0px 8px 30px;
+    margin: 8px 0px;
+    border: 2px solid darkgray;
+}
+.contactanos i{
+    color: black;
+    position: relative;
+    right: 490px;
+}
+.contactanos .cuadro-mensaje{
+    border: 2px solid darkgray;
+    width: 90%;
+    height: 120px;
+}
+.cuadro-mensaje span{
+    position: absolute;
+    right: 545px;
+    top: 180px;
+    
+}
+.contactanos textarea{
+    padding: 8px 0px 8px 30px;
+    width: 100%;
+    border: none;
+}
+.contactanos .cuadro-mensaje i{
+    margin: 0px;
+    position: relative;  
+}
+.contactanos button{
+    padding: 15px 40%;
+    background-color: #192951;
+    border-radius: 5px;
+    border: 1px solid #192951;
+    color: white;
+    margin-top: 20px;
+}
+.contactanos .imagen{
+    background-image: url(../img/shoes_!.jpg);
+    height: 400px;
+    background-size: contain;
+    right: 0;
+    position: relative;
+}
+
+
+/*-----FOOTER---------------------------------------------------*/
+.end-pg {
+    background-color: #192951;
+    color: #fff;
+    padding: 25px;
+}

@@ -1,0 +1,186 @@
+/* Tu CSS va aqui */
+*{
+    outline: 1px solid red;
+}
+body{
+    color: white;
+}
+/*-------css comun-----*/
+hr{
+    width: 50px;
+}
+
+/*---------HEADER----*/
+
+header{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: left;
+    color: papayawhip;
+}
+.navbar a{
+    color: white;
+}
+/*--------HERO-------*/
+.presentacion{
+    margin: 150px 0;
+}
+.presentacion button{
+    background-color: #f05f40;
+    border-radius: 20px;
+    border: 1px solid #f05f40;
+}
+.hero hr{
+    border: 1px solid #f05f40;
+}
+
+/*--------SECTION MENU-2------------------*/
+.menu-2{
+    background-color: #f2755a;
+}
+.menu-2 .navbar a{
+    color: #f05f40;
+}
+
+/*--------SECTION SOBRE-MI---------*/
+.sobre-mi{
+    background-color: #f05f40;
+    margin-top: -20px;
+}
+.sobre-mi hr{
+    border: 1px solid white;
+}
+.sobre-mi{
+    box-sizing: border-box;
+    padding: 30px 20px;
+}
+.sobre-mi p{
+    margin: 10px 250px;
+}
+/*------SECTION SERVICIOS--------*/
+.servicios{
+    color: black;
+    margin: 30px 0;
+}
+.servicios hr{
+    border: 1px solid #f05f40;
+}
+.servicios i{
+    font-size: 35px;
+    color: #f05f40;
+}
+
+/*------SECTION IMAGENES-----------*/
+.imagenes .cuadro{
+    padding: 0;
+}
+
+/*----texto*/
+.texto{
+    background-color: #222222;
+}
+.texto .proyecto-letra{
+    margin: 30px 0;
+}
+.texto .proyecto-letra button{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+/*-----------FOOTER------*/
+footer{
+    color: black;
+}
+footer hr{
+    border: 1px solid #f05f40;
+}
+footer p {
+    width: 60%;
+    margin: auto;
+}
+footer i{
+    font
+}
+footer .container{
+    margin: 30px auto;
+}
+footer .correo{
+    color: #f05f40;
+}
+
+/*---------RESPONSIVE---------*/
+@media screen and (max-width: 768px){
+    header .presentacion{
+        width: 80%;
+        margin: 60px auto;
+    }
+    .hero button{
+        margin: 20px auto;
+    }
+    /* sobre mi */
+    .sobre-mi p{
+        width: 80%;
+        margin: auto;
+        font-size: 20px;
+    }
+    /*servicios */
+    .servicios i{
+        font-size: 50px;
+    }
+    .servicios .block{
+        padding: 10px 0;
+    }
+    /* imagenes */
+    .imagenes .github img{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 414px){
+    header nav{
+        background-color: white;
+    }
+   .navbar a{
+    color: #f05f40;
+    }
+    header .presentacion{
+        width: 95%;
+        margin: 60px auto;
+    }
+    header .presentacion p{
+        font-size: 15px;
+    }
+   /* sobre mi */
+    .sobre-mi p{
+        width: 100%;
+        margin: auto;
+        font-size: 15px;
+    }
+    /* servicios */
+    .servicios h4{
+        font-size: 25px;
+    }
+    .servicios .block{
+        padding: 20px 0;
+    }
+    .texto h4{
+        font-size: 25px;
+        padding: 0 10px;
+    }
+    /* contactame */
+    footer{
+        margin: 50px auto;
+    }
+    footer p{
+        width: 90%;
+        margin: auto;
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
