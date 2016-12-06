@@ -17,8 +17,14 @@ header{
     background-position: left;
     color: papayawhip;
 }
+header button span{
+    background: white;
+}
 .navbar a{
     color: white;
+}
+.navbar{
+    margin-bottom: 0;
 }
 /*--------HERO-------*/
 .presentacion{
@@ -45,7 +51,6 @@ header{
 /*--------SECTION SOBRE-MI---------*/
 .sobre-mi{
     background-color: #f05f40;
-    margin-top: -20px;
 }
 .sobre-mi hr{
     border: 1px solid white;
